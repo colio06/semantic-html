@@ -4,85 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 
-  <body style="border-radius: 20px;">
-    <nav style="display: flex; width: 100%" class="navbar">
-      <span style="width: 30%; padding: 20px" class="nav-brand">
+  <body>
+    <main>
+    <nav>
+      <span class="nav-brand">
         <h1>colioo</h1>
       </span>
-      <ul
-        style="display: inline-flex; align-self: center; gap: 30px; width: 50%"
-        class="sections"
-      >
-        <li style="display: block">Home</li>
-        <li style="display: block">About</li>
-        <li style="display: block">Work</li>
-        <li style="display: block">Resume</li>
-        <li style="display: block">Contact</li>
+      <ul class="sections">
+        <li> <a href="#Home"> Home</a></li>
+        <li> <a href="#about">About</a> </li>
+        <li> <a href="#my-work">Work</a> </li>
+        <li> <a href="#screen">Resume</a> </li>
+        <li><a href="#contact-me">Contact</a></li>
     </nav>
     </div>
     <hr />
-    <section style="display: flex; padding: 50px;" class="hero">
-      <div style="padding: 30px; width:50%;" class="hero-text">
+    <section class="hero" id="hero">
+      <div class="hero-text">
         <h1>Hi, I'm Collins</h1>
-        <p style="letter-spacing: 10px">Frontend Developer in Training</p>
+        <p>Frontend Developer in Training</p>
       </div>
-      <div style="width: 40%;" class="profile-img">
-        <img width="300px" style="border-radius: 5px;"  src="913448.jpg" alt="" />
+      <div class="profile-img">
+        <img width="200px" src="913448.jpg" alt="" />
       </div>
     </section>
     <hr />
-    <section style=" padding: 10px;" class="about">
-      <ul style="gap: 10px" class="skills">
+    <section class="about" id="about">
+      <ul class="skills">
         <h2>About Me</h2>
-        <p style="letter-spacing: 1.5px">
+        <p>
           I am learning web development and building my skills in HTML, CSS, and
           javaScript . <br />
           Here are some skills I have acquired so far:
         </p>
 
-        <li style="padding: 10px">HTML</li>
-        <li style="padding: 10px">CSS</li>
-        <li style="padding: 10px">JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
       </ul>
     </section>
     <hr />
-    <section style="display: flex; width: 100%"; padding:10px; class="my-work">
-      <ul style="width: 50%" class="services">
+    <section class="my-work" id="my-work">
+      <ul class="services">
         <h2>My Work</h2>
-        <li style="padding: 10px">Portfolio Website</li>
-        <li style="padding: 10px">Resturant Menu Page</li>
-        <li style="padding: 10px">Calculator App</li>
+        <li>Portfolio Website</li>
+        <li>Resturant Menu Page</li>
+        <li>Calculator App</li>
       </ul>
-      <div style="align-self: center" class="screen">
+      <div class="screen">
         <h2>My Resume</h2>
         <video src="" controls></video>
       </div>
     </section>
     <hr />
-    <section style="width: 100%;  padding:10px;" class="contact-me">
-      <h2 style="padding:0px 30px;">Contact Me</h2>
+    <section class="contact-me" id="contact-me">
+      <h2>Contact Me</h2>
 
-      <form style="gap: 30px; padding: 40px;display: flex;" action="">
+      <form action="">
         <div class="texts">
         <label for="">Name:</label>
         <br />
         <br>
-        <input
-          style="width: 450px; height: 30px"
+        <input style="background-color: rgb(227, 247, 247);"
           type="text"
-          placeholder="Enter Full-name"
+          placeholder="      Enter Full-name"
         />
         <br />
         <br>
         <label for="">Email:</label>
         <br />
         <br>
-        <input
-          style="width: 450px; height: 30px"
+        <input style="background-color: rgb(227, 247, 247);"
           type="email"
-          placeholder="Enter Email Address"
+          placeholder="      Enter Email Address"
           text
         /><br />
         </div>
@@ -90,7 +90,7 @@
           <label for="">Message:</label>
           <br />
           <br>
-          <textarea name="message" id="message" rows="6" cols="60"></textarea>
+          <textarea style="background-color: rgb(227, 247, 247);" name="message" id="message" rows="6" cols="60"></textarea>
           <br>
           <br>
           <button type="submit">
@@ -100,8 +100,9 @@
 
       </form>
     </section>
-    <footer style="justify-self: center; padding: 30px;">
+    <footer>
       &copy; 2026 colioo | All Right Reserved
     </footer>
+    </main> 
   </body>
 </html>

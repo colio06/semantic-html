@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: roboto;
+  border: 1px;
+}
+body {
+  margin: 30px;
+  background-color: rgb(127, 87, 0);
+}
+main {
+  margin: 0px 100px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgb(231, 227, 221);
+}
+nav {
+  display: flex;
+  width: 100%;
+  span {
+    width: 30%;
+    padding: 20px;
+  }
+  .sections {
+    display: inline-flex;
+    align-self: center;
+    gap: 30px;
+    width: 50%;
+  }
+  li {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: rgb(218, 142, 0);
+  }
+  .nav-brand {
+    h1 {
+      color: rgb(218, 142, 0);
+    }
+  }
+}
+section {
+  h2 {
+    color: rgb(218, 142, 0);
+    margin: 20px;
+  }
+}
+button{
+    background-color: rgb(218, 142, 0);
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.hero {
+  display: flex;
+  padding: 50px;
+  .hero-text {
+    padding: 30px;
+    width: 50%;
+  }
+  .profile-img {
+    width: 40%;
+    img {
+      border-radius: 5px;
+    }
+  }
+}
+.about {
+  padding: 10px;
+  ul {
+    gap: 10px;
+  }
+  p {
+    letter-spacing: 1.5px;
+  }
+  li {
+    padding: 10px;
+  }
+}
+.my-work {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  ul {
+    width: 50%;
+    li {
+      padding: 10px;
+    }
+  }
+  .screen {
+    align-self: center;
+  }
+}
+.contact-me {
+  width: 100%;
+  padding: 10px;
+  h2 {
+    padding: 0px 30px;
+  }
+}
+form {
+  gap: 30px;
+  padding: 40px;
+  display: flex;
+  input {
+    width: 450px;
+    height: 30px;
+  }
+}
+footer {
+  justify-self: center;
+  padding: 30px;
+}
